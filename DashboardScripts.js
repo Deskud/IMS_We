@@ -4,11 +4,11 @@ toggleButton.addEventListener( 'click', (event) => {
     event.preventDefault();
 
     if(Opensidebar){
-        dashboardSideBar.style.width = '10%';
+        dashboardSideBar.style.width = '5%';
         dashboardSideBar.style.transition = '0.7s all';
-        dashboardContent_Container.style.width = '90%';
-        dashboardLogo.style.fontSize = '20px';
-        UserImg.style.width = '20px';
+        dashboardContent_Container.style.width = '100%';
+        dashboardLogo.style.fontSize = '15px';
+        UserImg.style.width = '15px';
 
         menuIcons = document.getElementsByClassName('menuText');
         for(var i =0; i < menuIcons.length;i++){
@@ -20,7 +20,7 @@ toggleButton.addEventListener( 'click', (event) => {
     }else {
         dashboardSideBar.style.width = '300px';
         dashboardContent_Container.style.width = '100%';
-        dashboardLogo.style.fontSize = '45px';
+        dashboardLogo.style.fontSize = '40px';
         UserImg.style.width = '60px';
 
         menuIcons = document.getElementsByClassName('menuText');
